@@ -16,36 +16,30 @@ Instead, you'll learn how to automatically test your (vanilla) JavaScript code, 
 
 This course will provide you with an extremely solid foundation to build up on, such that you can start adding tests to all your JavaScript projects.
 
-In detail, this course will teach you:
+### In detail, this course will teach you:
 
-What exactly "testing" or "automated testing" is (and why you need it)
+- What exactly "testing" or "automated testing" is (and why you need it)
+- What "unit testing" is specifically
+- Which tools you need to enable automated unit tests in your projects
+- How to write unit tests
+- How to get started with integration tests
+- How to formulate different expectations (assertions)
+- Which patterns to follow when writing tests
+- How to test asynchronous and synchronous code
+- How to deal with side effects with help of spies & mocks
+- How to apply all these concepts in real projects & examples
 
-What "unit testing" is specifically
+### What you’ll learn
 
-Which tools you need to enable automated unit tests in your projects
+- Write and structure unit & integration tests
+- Remove side effects from tests via mocking and spies
+- Work with popular JavaScript test runners and libraries
+- Write good tests and focus on testing core business logic
+- Are there any course requirements or prerequisites?
+- Basic JavaScript knowledge is required
+- NO prior testing knowledge is necessary at all
 
-How to write unit tests
+### Who this course is for:
 
-How to get started with integration tests
-
-How to formulate different expectations (assertions)
-
-Which patterns to follow when writing tests
-
-How to test asynchronous and synchronous code
-
-How to deal with side effects with help of spies & mocks
-
-How to apply all these concepts in real projects & examples
-
-What you’ll learn
-Write and structure unit & integration tests
-Remove side effects from tests via mocking and spies
-Work with popular JavaScript test runners and libraries
-Write good tests and focus on testing core business logic
-Are there any course requirements or prerequisites?
-Basic JavaScript knowledge is required
-NO prior testing knowledge is necessary at all
-Who this course is for:
-JavaScript developers who want to add tests to their projects
-Developers who always considered automated testing to be intimidating
+- JavaScript developers who want to add tests to their projects
+- Developers who always considered automated testing to be intimidating

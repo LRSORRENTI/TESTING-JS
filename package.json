@@ -1,0 +1,26 @@
+{
+  "name": "js-testing-jest-max",
+  "version": "1.0.0",
+  "description": "Automated testing is a key concept in modern (web) development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LRSORRENTI/TESTING-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LRSORRENTI/TESTING-JS/issues"
+  },
+  "homepage": "https://github.com/LRSORRENTI/TESTING-JS#readme",
+  "devDependencies": {
+    "vitest": "^1.3.1"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
