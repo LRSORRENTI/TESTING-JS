@@ -8,4 +8,4 @@ test('should summarize all num values within an array', () => {
     // toBe to specify what the end result of calling add with 
     // the array [1, 2, 3]
     expect(result).toBe(6);
-})
+});
