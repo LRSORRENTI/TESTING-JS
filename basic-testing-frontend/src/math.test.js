@@ -32,7 +32,7 @@ test('should yield NaN if an invalid number is provided', () => {
     const result = add(inputs);
     // Assert 
     expect(result).toBeNaN();
-})
+});
 
 test('should yield a correct sum if an array of numeric string values are provides', () => {
     const numbers = ['1', '2', '3'];
@@ -41,6 +41,23 @@ test('should yield a correct sum if an array of numeric string values are provid
         // note we prepend '+' to convert string num to real
         // num
         return +acc + +curr
-    })
-    expect(result).toBe(6);
-})
+    });
+    expect(result).toBe(expectedResult);
+});
+
+test('should yield 0 is an empty array is provides', () => {
+    const numbers = [];
+    const result = add(numbers);
+    expect(result).toBe(0);
+});
+
+// testing for errors 
+test('no argument is passed in, throw error', () => {
+    const resultFN = () => {
+        add();
+    };
+    expect(resultFN).toThrow();
+    // to check for the inverse, pass in the not method
+    // expect(resultFN).not.toThrow();
+});
+
