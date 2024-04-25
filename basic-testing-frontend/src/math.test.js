@@ -52,7 +52,7 @@ test('should yield 0 is an empty array is provides', () => {
 });
 
 // testing for errors 
-test('no argument is passed in, throw error', () => {
+test('will check if no argument is passed in, throw error', () => {
     const resultFN = () => {
         add();
     };
@@ -61,3 +61,16 @@ test('no argument is passed in, throw error', () => {
     // expect(resultFN).not.toThrow();
 });
 
+test('will check if multiple arguments are passed in instead of an array', () => {
+    const num1 = 1;
+    const num2 = 2;
+    const resultFN = () => {
+        add(num1, num2)
+    };
+    expect(resultFN).toThrow(/is not iterable/);
+    // The regular expression /is not iterable/ 
+    // is used to specify the expected message or 
+    // pattern in the error that should be thrown. 
+    // This regex matches any error message that 
+    // contains the phrase "is not iterable."
+});
