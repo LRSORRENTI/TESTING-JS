@@ -1,10 +1,15 @@
 # The Basics - Understanding the fundamentals of testing
 
+
 - How to create and run unit tests
 
 - AAA pattern (Arrange, Act, Assert)
 
 - What to test, and how to organize tests
+
+## Why do we test?
+
+The idea is we can have tests we write one by one, then at the end we can run all the tests and ensure the project works instead of performing a bunch of manual tests
 
 In this course we have three variations of the same app, all three versions will recreate the same end structure, just by different means
 
