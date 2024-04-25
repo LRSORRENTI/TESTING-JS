@@ -59,4 +59,4 @@ Test Files  1 passed (1)
       Time  1.35s (in thread 3ms, 44879.51%)
 ```
 
-The AAA pattern helps keep testing files organized and structured
+The AAA pattern helps keep testing files organized and structure

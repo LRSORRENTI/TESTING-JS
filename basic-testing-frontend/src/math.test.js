@@ -24,3 +24,23 @@ test('should summarize all num values within an array', () => {
     // Assert phase
     expect(result).toBe(expectedResult);
 });
+
+test('should yield NaN if an invalid number is provided', () => {
+    // Arrange
+    const inputs = ['invalid', 1];
+    // Act
+    const result = add(inputs);
+    // Assert 
+    expect(result).toBeNaN();
+})
+
+test('should yield a correct sum if an array of numeric string values are provides', () => {
+    const numbers = ['1', '2', '3'];
+    const result = add(numbers);
+    const expectedResult = numbers.reduce((acc, curr) => {
+        // note we prepend '+' to convert string num to real
+        // num
+        return +acc + +curr
+    })
+    expect(result).toBe(6);
+})

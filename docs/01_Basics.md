@@ -13,6 +13,8 @@ The idea is we can have tests we write one by one, then at the end we can run al
 
 In this course we have three variations of the same app, all three versions will recreate the same end structure, just by different means
 
+It's very important to keep tests simple and readable, building overly complex tests when it's not necessary isn't a good approach to testing
+
 ## Frontend 
 
 We'll start by looking at the frontend, specifically src/Math.js
