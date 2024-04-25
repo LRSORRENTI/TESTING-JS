@@ -1,5 +1,4 @@
 node_modules
 /basic-testing-frontend/node_modules
 /basic-testing-frontend-nodejs/node_modules
-# /basic-testing-nodejs-esmodules/node_modules
-README.md
+/basic-testing-nodejs-esmodules/node_modules
