@@ -41,3 +41,15 @@ function formSubmitHandler(event) {
 }
 
 form.addEventListener('submit', formSubmitHandler);
+
+// New refactored version of above
+// function formSubmitHandler(event) {
+//   event.preventDefault();
+//   const numberValues = extractEnteredNumberValues(form);
+//   console.log(numberValues)
+//   let result = calculateResult(numberValues);
+//   const resultText = generateResultText(result);
+//   outputResult(resultText)
+// }
+
+// form.addEventListener('submit', formSubmitHandler);
